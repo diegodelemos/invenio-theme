@@ -137,5 +137,7 @@ theme = WebpackBundle(
         'moment': '~2.9.0',
         'select2': '~4.0.2',
         'admin-lte': '~2.3.11',
+        'react': '^16.6.0',
+        'react-dom': '^16.6.0'
     }
 )

@@ -5,7 +5,16 @@
  * Invenio is free software; you can redistribute it and/or modify it
  * under the terms of the MIT License; see LICENSE file for more details.
  */
- // eslint-disable-next-line no-unused-vars
- import jquery from 'jquery/dist/jquery'
- // eslint-disable-next-line no-unused-vars
- import bootstrap from 'bootstrap-sass/assets/javascripts/bootstrap'
+// eslint-disable-next-line no-unused-vars
+import jquery from 'jquery/dist/jquery'
+// eslint-disable-next-line no-unused-vars
+import bootstrap from 'bootstrap-sass/assets/javascripts/bootstrap'
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+const Index = () => {
+  return <div>Hello Invenio!</div>;
+};
+
+ReactDOM.render(<Index />, document.getElementById("footer"));
